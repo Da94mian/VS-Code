@@ -5,6 +5,6 @@ b=a.copy()
 for i in b:
     index = b.index(i)*2
     print(index)
-    a.insert(index, i+i)
+    a.insert(index, i)
 
 print(a)
